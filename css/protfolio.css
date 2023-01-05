@@ -113,6 +113,11 @@ body {
     text-align: center;
 }
 
+.title-description,
+.heading-description {
+    text-align: justify;
+}
+
 .about-title .title,
 .skill-heading .heading {
     margin-bottom: 30px;
@@ -180,4 +185,117 @@ body {
     font-size: 16px;
     color: #757575;
 
+}
+
+
+.resume-heading .heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+    margin: 113px 230px 50px 230px;
+}
+
+.education-heading,
+.experience-heading {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.education-sub-branch {
+    margin-top: 30px;
+
+}
+
+.edu-sub-branch-heading {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.edu-session {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0 20px 0;
+
+}
+
+.edu-session-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Style */
+
+.footer {
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 0 230px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 117px;
+
+}
+
+.footer-heading {
+    padding-top: 130px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+    padding-right: 117;
+}
+
+.social-links a img {
+    margin-right: 24px;
+}
+
+.footer-heading form input[type="text"],
+input[type="email"] {
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 24px;
+    padding: 30px;
+}
+
+.footer-heading form input[type="submit"] {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-heading form textarea {
+    margin: 24px 0;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
 }
