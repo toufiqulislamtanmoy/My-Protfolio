@@ -5,8 +5,8 @@
     font-family: 'Open Sans';
 }
 
-body{
-    background-color: #FFF8F3;
+body {
+    /* background-color: #FFF8F3; */
 }
 
 .nav-logo {
@@ -86,11 +86,11 @@ body{
 }
 
 /* Banner Btn style */
-.banner-btn{
-    margin-top:30px;
+.banner-btn {
+    margin-top: 30px;
 }
 
-.btn-contact{
+.btn-contact {
     background-color: #FFF8F3;
     padding: 17px 26px;
     border: 1px solid #FD6E0A;
@@ -98,4 +98,46 @@ body{
     margin-left: 30px;
     color: #FD6E0A;
     cursor: pointer;
+}
+
+/* About Style */
+.about {
+    margin: 130px 230px;
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.about-title .title {
+    margin-bottom: 30px;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-title .title-description {
+    color: #757575;
+    font-size: 18px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.info-heading{
+    color: #757575;
+    font-size: 20px;
+}
+
+.info-container .info-discrip {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
 }
