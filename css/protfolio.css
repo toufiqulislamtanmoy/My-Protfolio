@@ -5,6 +5,10 @@
     font-family: 'Open Sans';
 }
 
+body{
+    background-color: #FFF8F3;
+}
+
 .nav-logo {
     font-weight: 800;
     font-size: 45px;
@@ -36,12 +40,62 @@
     font-size: 20px;
     color: #474747;
 }
+
 /* Btn Style */
 
-.btn-org{
+.btn-org {
     background-color: #FD6E0A;
     border: none;
     padding: 18px 19px;
     border-radius: 7px;
     color: white;
+    cursor: pointer;
+}
+
+/* Banner Style */
+
+.banner {
+    display: flex;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom 7px right;
+}
+
+.my-info {
+    margin: 297px 230px;
+    margin-bottom: 0;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 75px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-discription {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Banner Btn style */
+.banner-btn{
+    margin-top:30px;
+}
+
+.btn-contact{
+    background-color: #FFF8F3;
+    padding: 17px 26px;
+    border: 1px solid #FD6E0A;
+    border-radius: 7px;
+    margin-left: 30px;
+    color: #FD6E0A;
+    cursor: pointer;
 }
