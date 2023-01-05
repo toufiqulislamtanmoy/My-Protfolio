@@ -108,18 +108,21 @@ body {
     border-radius: 5px;
 }
 
-.about-title {
+.about-title,
+.skill-heading {
     text-align: center;
 }
 
-.about-title .title {
+.about-title .title,
+.skill-heading .heading {
     margin-bottom: 30px;
     color: #181818;
     font-weight: 700;
     font-size: 35px;
 }
 
-.about-title .title-description {
+.about-title .title-description,
+.skill-heading .heading-description {
     color: #757575;
     font-size: 18px;
 }
@@ -131,7 +134,7 @@ body {
     text-align: center;
 }
 
-.info-heading{
+.info-heading {
     color: #757575;
     font-size: 20px;
 }
@@ -140,4 +143,41 @@ body {
     color: #474747;
     font-weight: 700;
     font-size: 20px;
+}
+
+/* Skills Section style*/
+
+.skills {
+    margin: 130px 230px;
+    border-radius: 5px;
+}
+
+.skill-container {
+    display: flex;
+    margin-top: 50px;
+    gap: 24px;
+    background-color: #FFF8F3;
+}
+
+.skill {
+    padding-top: 30px;
+    text-align: left;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.skill-discriptions {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
 }
