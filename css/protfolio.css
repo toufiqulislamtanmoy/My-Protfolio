@@ -5,9 +5,7 @@
     font-family: 'Open Sans';
 }
 
-body {
-    /* background-color: #FFF8F3; */
-}
+
 
 .nav-logo {
     font-weight: 800;
@@ -60,6 +58,9 @@ body {
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom 7px right;
+}
+.prof-img{
+    text-align: right;
 }
 
 .my-info {
@@ -300,4 +301,203 @@ input[type="email"] {
     padding: 15px 30px;
     border: none;
     outline: none;
+}
+/* Small Device */
+@media screen and (max-width:576px){
+    .nav-logo {
+        padding-left: 20px;
+    }
+
+    .banner-sub-title{
+        font-size: 25px;
+    }
+    .banner-title{
+       font-size: 35px;
+    }
+
+    .my-info {
+        margin: 0 ;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    .prof-img{
+       display: none;
+    }
+    .nav-ul {
+        display: flex;
+        padding: 20px;
+        gap: 50px;
+        align-items: center;
+    }
+    /* banner */
+    .navbar {
+        
+        flex-direction: column;
+        padding: 0;
+    }
+    .banner{
+        flex-direction: column;
+        background-image: none;
+    }
+    /* about me res */
+
+    .about {
+        margin: 30px;
+        padding: 20px;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+     /* Skills Responcive */
+
+     .skills{
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    .skill-container {
+        flex-direction: column;
+    }
+
+    
+    /* Resume Section Responceve */
+    .resume{
+        margin-top: 50px;
+    }
+    .resume-heading .heading{
+        text-align: left;
+        font-size: 35px;
+        margin: 0 10px;
+        border-bottom: 1px solid #474747;
+    }
+    .resume-container {
+        display: flex;
+        gap: 71px;
+        margin: 50px 10px;
+        flex-direction: column;
+    }
+
+
+    /* Footer Section Responceve */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .footer {
+        margin-top: 53px;
+        background-color: #FFF8F3;
+        padding: 0 5px;
+    }
+    .footer-description{
+        width: 100%;
+    }
+}
+/* For banar exta range */
+
+/* Mid Range Device */
+@media screen and (min-width:577px) and (max-width:1368px){
+    /* Banner Section */
+    .banner-sub-title{
+        font-size: 25px;
+    }
+    .banner-title{
+       font-size: 35px;
+    }
+
+    .nav-logo {
+        padding-left: 20px;
+    }
+
+    .my-info {
+        margin: 0 ;
+        margin-bottom: 0;
+        padding: 20px;
+    }
+    .prof-img{
+       background-image: url('../images/header_bg_filp.png');
+       text-align: left;
+       background-repeat: no-repeat;
+       background-position: top 155px left;
+    }
+    .nav-ul {
+        display: flex;
+        padding: 20px;
+        gap: 50px;
+        align-items: center;
+    }
+    /* banner */
+    .navbar {
+        
+        flex-direction: column;
+        padding: 0;
+    }
+    .banner{
+        flex-direction: column;
+        background-image: none;
+    }
+    
+    /* about me res */
+
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .about {
+        margin: 30px;
+        padding: 20px;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    
+    /* Skill Res */
+    .skills{
+       margin: 10px;
+       margin-bottom: 0px;
+    }
+
+    .skill-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* Resume Responceive */
+    .resume{
+        margin-top: 50px;
+    }
+    .resume-container {
+        margin: 50px 50px;
+    }
+   
+    /* footer Responsive */
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .footer {
+        padding: 0 30px;
+    }
+    .footer-description{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1369px) and (max-width:1780px){
+    .banner{
+        background-position: top 155px right ;
+    }
 }
